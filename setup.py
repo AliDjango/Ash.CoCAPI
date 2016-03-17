@@ -1,0 +1,25 @@
+from setuptools import setup
+
+setup(name='ash.cocapi',
+      version='1.0.0',
+      description='Unofficial Clash of Clans API Library',
+      long_description=open('README.rst', 'r').read(),
+      url='https://github.com/madl-ash/Ash.CoCAPI/',
+      author='Ali Shadanpour',
+      author_email='ash.nfu@gmail.com',
+      license='MIT',
+      classifiers=[
+          'Development Status :: 5 - Production/Stable',
+          'Intended Audience :: Developers',
+          'License :: OSI Approved :: MIT License',
+          'Natural Language :: English',
+          'Operating System :: OS Independent',
+          'Programming Language :: Python',
+          'Programming Language :: Python :: 3 :: Only',
+          'Topic :: Software Development :: Libraries',
+      ],
+      keywords=['api', 'coc', 'ash', 'cocapi', 'clash of clans', 'supercell', 'python'],
+      packages=['ash', 'ash.cocapi'],
+      platforms=['Linux', 'FreeBSD', 'BSD', 'Unix', 'Mac', 'OS X', 'Windows'],
+      install_requires=['collections', 'requests'],
+      )
