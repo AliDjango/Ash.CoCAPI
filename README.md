@@ -1,7 +1,9 @@
+##AsH.CoCAPI
 **AsH.CoCAPI** is a module for calling the official Clash of Clans Api in Python.
 It supports all available methods that The Api supports
 In order to use this module,you have to get a Token from https://developer.clashofclans.com
 as a quick view on the functions you can use this code.
+**Please See the Docs branch for a complete documentation and examples**
 
     from ash.cocapi import *
     
