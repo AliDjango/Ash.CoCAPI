@@ -12,10 +12,11 @@ as a quick view on the functions you can use this code.
     results = api.search_clan(name='Clan Name Here')
     """
     you can use these to make and advanced search
-    name-warfrequency-locationid-minmembers-maxmembers--minclanpoints-minclanlevel-limit-after-before"""
+    name-warfrequency-locationid-minmembers-maxmembers--minclanpoints-minclanlevel-limit-after-before
+    """
     tag=results.items[0].tag#to use other functions with this example
     for result in results.items:
-        print(i.name,i.tag,i.members)
+        print(result.name,result.tag,result.members)
     
     #getting a specific clan using Clantag
     result = api.get_clantag(tag)
@@ -44,5 +45,6 @@ as a quick view on the functions you can use this code.
     results = api.get_leagues()
     for result in result.sitems:
         print(result.name)
+
 
 
